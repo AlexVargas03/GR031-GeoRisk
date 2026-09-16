@@ -1,0 +1,20 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Salidas generadas por data/generar_dataset.py y data/validar_modelo.py
+# Se regeneran con: python data/generar_dataset.py && python data/validar_modelo.py
+data/out/
+
+# Credenciales de conexion a SAP (NUNCA versionar)
+.env
+*.credentials
+hana_config.json
+
+# Sistema operativo / editores
+.DS_Store
+Thumbs.db
+*.swp
+.idea/

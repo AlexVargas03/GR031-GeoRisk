@@ -1,0 +1,8 @@
+{
+  "permissions": {
+    "allow": [
+      "PowerShell(python data/generar_dataset.py)",
+      "PowerShell(python data/validar_modelo.py)"
+    ]
+  }
+}
